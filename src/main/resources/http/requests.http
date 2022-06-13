@@ -1,0 +1,28 @@
+### Post 'Poland"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "city": "Poland"
+}
+
+### Post "Germany"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "city": "Germany"
+}
+
+### Post "USA"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "city": "USA"
+}
+
+### Get all the countries
+GET http://localhost:8080/
